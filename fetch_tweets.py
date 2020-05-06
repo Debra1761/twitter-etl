@@ -21,10 +21,7 @@ import subprocess
 import pymongo
 from pymongo import MongoClient
 
-consumer_key = "jjSz1RE4ftTNmqB1XuUTM22Fc"
-consumer_secret = "5SNWrhQStzMp3UDwVY7YGuEofQ4QOBBP4rOo4hGnhKpdFQoVi9"
-access_token = "68979886-IzdibLmYAx39y8PLNWA7kLPKl2rTDlLPCnf557I45"
-access_token_secret = "tjVsF4mx4vS9JO0hPcS7b8qoP7oIZK1A8nX0aMwhkNEDG"
+
 
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
